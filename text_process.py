@@ -3,6 +3,7 @@ import spacy
 from tqdm import tqdm
 import codecs as cs
 from os.path import join as pjoin
+import pandas as pd
 
 nlp = spacy.load('en_core_web_sm')
 def process_text(sentence):
